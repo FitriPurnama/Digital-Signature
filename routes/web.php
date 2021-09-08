@@ -18,3 +18,4 @@ Route::get('/', function () {
 });
 
 Route::get('/tcpdf', [App\Http\Controllers\HomeController::class, 'createPDF'])->name('createPDF');
+Route::get('/tcpdf', [App\Http\Controllers\HomeController::class, 'createPDF'])->name('createPDF');
